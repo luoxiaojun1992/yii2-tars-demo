@@ -515,12 +515,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/yii2-tars.git",
-                "reference": "07eeed94031529cbe73f375b848857635a3e5143"
+                "reference": "6f0197427cb584bccc9dd57d2babcdb3ee2ae50b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/yii2-tars/zipball/07eeed94031529cbe73f375b848857635a3e5143",
-                "reference": "07eeed94031529cbe73f375b848857635a3e5143",
+                "url": "https://api.github.com/repos/luoxiaojun1992/yii2-tars/zipball/6f0197427cb584bccc9dd57d2babcdb3ee2ae50b",
+                "reference": "6f0197427cb584bccc9dd57d2babcdb3ee2ae50b",
                 "shasum": ""
             },
             "require": {
@@ -554,7 +554,7 @@
                 }
             ],
             "description": "Yii2 Tars",
-            "time": "2019-06-15T05:08:10+00:00"
+            "time": "2019-06-16T05:33:24+00:00"
         },
         {
             "name": "monolog/monolog",
