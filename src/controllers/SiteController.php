@@ -61,6 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        Yii::info('test yii2 tars log');
         return '接入Yii2 Router 成功';
     }
 

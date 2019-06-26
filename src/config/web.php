@@ -41,6 +41,7 @@ $config = [
                     'levels' => ['error', 'warning'],
                 ],
             ],
+            'flushInterval' => 1,
         ],
         'db' => $db,
         /*

@@ -26,8 +26,7 @@ return array (
       'serverName' => 'Yii2Tars',
       'objName' => 'obj',
     ),
-    'tarsregistry' => 'tars.tarsregistry.QueryObj@tcp -h 172.18.0.3 -p 17890',
-    'log_level' => 200,
-    'communicator_config_log_level' => 'INFO',
+    'log_level' => ['info'],
+    'log_interval' => 1,
   ),
 );
