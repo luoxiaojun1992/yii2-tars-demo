@@ -10,23 +10,40 @@ return array (
     ),
     'services' => 
     array (
-      'namespaceName' => 'Lxj\\Yii2\\Tars\\',
-      'monitorStoreConf' => 
+      'obj' => 
       array (
-        'className' => 'Tars\\monitor\\cache\\SwooleTableStoreCache',
-        'config' => 
+        'protocolName' => 'http',
+        'serverType' => 'http',
+        'namespaceName' => 'Lxj\\Yii2\\Tars\\',
+        'monitorStoreConf' => 
         array (
-          'size' => 40960,
+          'className' => 'Tars\\monitor\\cache\\SwooleTableStoreCache',
+          'config' => 
+          array (
+            'size' => 40960,
+          ),
         ),
+      ),
+      'tarsObj' => 
+      array (
+        'protocolName' => 'tars',
+        'serverType' => 'tcp',
+        'home-api' => '\\app\\tars\\servant\\PHPTest\\Yii2Tars\\tarsObj\\TestTafServiceServant',
+        'home-class' => '\\app\\tars\\impl\\TestTafServiceImpl',
       ),
     ),
     'proto' => 
     array (
       'appName' => 'PHPTest',
       'serverName' => 'Yii2Tars',
-      'objName' => 'obj',
+      'objName' => 'tarsObj',
+      'withServant' => true,
+      'tarsFiles' => 
+      array (
+        0 => './example.tars',
+      ),
+      'dstPath' => '../src/tars/servant',
+      'namespacePrefix' => 'app\\tars\\servant',
     ),
-    'log_level' => ['info'],
-    'log_interval' => 1,
   ),
 );
