@@ -36,7 +36,7 @@ return array (
     array (
       'appName' => 'PHPTest',
       'serverName' => 'Yii2Tars',
-      'objName' => 'tarsObj',
+      'objName' => 'obj',
       'withServant' => true,
       'tarsFiles' => 
       array (
