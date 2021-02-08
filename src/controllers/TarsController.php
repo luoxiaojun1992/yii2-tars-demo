@@ -13,7 +13,7 @@ class TarsController extends Controller
     {
         Yii::info('test yii2 tars log');
         return '接入Yii2 Router 成功,get入参:' . json_encode(\Yii::$app->request->get()) .
-            ',post入参:' . json_encode(\Yii::$app->request->post());
+            ',post入参:' . json_encode(\Yii::$app->request->post()) . ',mem:' . memory_get_usage();
     }
 
     public function actionTars()
