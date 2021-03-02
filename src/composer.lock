@@ -32,7 +32,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -53,7 +53,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -1189,12 +1189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/yii2-tars.git",
-                "reference": "30967a003a1f7a3b7e751f8ec08b2491a346770b"
+                "reference": "04ef85118317a021bab76323c8fe93b90d230a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/yii2-tars/zipball/30967a003a1f7a3b7e751f8ec08b2491a346770b",
-                "reference": "30967a003a1f7a3b7e751f8ec08b2491a346770b",
+                "url": "https://api.github.com/repos/luoxiaojun1992/yii2-tars/zipball/04ef85118317a021bab76323c8fe93b90d230a21",
+                "reference": "04ef85118317a021bab76323c8fe93b90d230a21",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1234,7 +1234,7 @@
                 }
             ],
             "description": "Yii2 Tars",
-            "time": "2019-07-10T07:08:09+00:00"
+            "time": "2021-01-25T06:35:56+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6240,5 +6240,6 @@
     "platform": {
         "php": ">=5.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
