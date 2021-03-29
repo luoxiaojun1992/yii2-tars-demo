@@ -39,7 +39,8 @@ $config = [
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
+                    'levels' => ['info', 'trace', 'error', 'warning'],
+                    'exportInterval' => 1,
                 ],
             ],
             'flushInterval' => 1,

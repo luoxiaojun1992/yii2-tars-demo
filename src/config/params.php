@@ -5,6 +5,8 @@ return array (
   'senderName' => 'Example.com mailer',
   'tars' => 
   array (
+    'log_level' => ['info', 'trace', 'error', 'warning'],
+    'log_interval' => 1,
     'registries' => 
     array (
     ),
